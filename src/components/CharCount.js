@@ -24,7 +24,7 @@ const CharCount = () => {
 
         for (let i = 0; i < newArray.length; i++) {
             if (x[i] !== ' ' && x[i] !== '0') {
-                result[i] = " " + x[i] + " : " + newArray[i];
+                result[i] = " " + x[i] + " - " + newArray[i];
             }
         }
 
